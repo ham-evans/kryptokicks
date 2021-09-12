@@ -6,27 +6,21 @@ import pattern from '../images/pattern.png';
 
 export default function Info () {
     return (
-        <div className="info" id="info" style={{ backgroundImage: `url(${pattern})` }}>
-            <div className="info__imgContainer">
-                <img className="info__imgIndividual" src={info} alt="GATB Logo"/>
-            </div>
+        <div className="info" id="info">
             <div className="info__container"  >
-                <h1>GATB Information</h1> 
+                <h1>KryptoKicks Information</h1> 
                 <ul>
                     <li>
-                        Presale: Thursday 9th of September 6pm PT
+                        Presale: 
                     </li>
                     <li>
-                        Main Drop: Sunday 12th of September 10am PT
+                        Main Drop: 
                     </li>
                     <li>
-                        Total number of Giraffe NFTs: 10,000
+                        Total number of KryptoKicks NFTs: 
                     </li>
                     <li>
-                        Total number of Giraffe NFTs withheld: 55 (giveaways and team)
-                    </li>
-                    <li>
-                        Price per NFT: 0.055 ETH + gas
+                        Price per NFT: X ETH + gas
                     </li>
                     <li>
                         Token type: ERC-721
@@ -38,7 +32,7 @@ export default function Info () {
                         File hosting: IPFS
                     </li>
                     <li>
-                        Smart contract: <span className="contractAddy">0xccb754B5D99f41397B13bEc72e0015D7bb2aB63E</span>
+                        Smart contract: 
                     </li>
                 </ul>
             </div>

@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Dosis', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Black Ops One', cursive;
+  letter-spacing: 4px;
 }
 
 code {

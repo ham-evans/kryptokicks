@@ -5,19 +5,20 @@
     align-items: center;
     display: flex;
     flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 50px;
     padding-right: 50px;
-    background-size: cover;
+    background: #9FA1A2;
 }
 
 .info__container { 
-    background: #efe49f;
+    background: #9FA1A2;
     color: #000;
     text-align: center;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 50px;
 }
 
 .info__container h1 { 
@@ -77,6 +78,10 @@
     .info__container { 
         margin-top: 40px;
         margin-bottom: 40px;
+    }
+    
+    .info__container h1 {
+        font-size: 2.8rem;
     }
 
     .info__imgContainer { 

@@ -22,7 +22,7 @@ export default class Navbar extends Component {
       <nav className={this.state.isOpen ? "navbar active" : "navbar"} id="#fullhome">
         <div className="nav-container">
           <HashLink smooth to="#fullhome" className="nav-logo">
-            <img className="nav__imgLogo" src={logo} alt="GATB Logo"/>
+            <img className="nav__imgLogo" src={logo} alt="KryptoKicks Logo"/>
           </HashLink>
 
           <ul className={this.state.isOpen ? "nav-menu active" : "nav-menu"}>
@@ -54,17 +54,17 @@ export default class Navbar extends Component {
               </HashLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-links" to={{ pathname: "https://twitter.com/nftgiraffes" }} target="_blank" >
+              <Link className="nav-links" to={{ pathname: "" }} target="_blank" >
                 <FontAwesomeIcon icon={faTwitter} />
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-links" to={{ pathname: "https://discord.gg/32mr9hy6ZV" }} target="_blank" >
+              <Link className="nav-links" to={{ pathname: "" }} target="_blank" >
                 <FontAwesomeIcon icon={faDiscord} />
               </Link>
             </li>
           </ul>
-          <div className="nav-icon">
+          <div className="nav-icon" onClick={this.handleToggle}>
             {this.state.isOpen ? <FontAwesomeIcon icon={faTimes} />
               : <FontAwesomeIcon icon={faBars} />
             }

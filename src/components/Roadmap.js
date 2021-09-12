@@ -1,33 +1,73 @@
 import React from 'react';
 import "./Roadmap.css"
+import roadShoe1 from '../images/tempRoad1.jpeg'
+import roadShoe2 from '../images/tempRoad2.jpeg'
+import roadShoe3 from '../images/tempRoad3.jpeg'
+import roadShoe4 from '../images/tempRoad4.jpeg'
+import roadShoe5 from '../images/tempRoad5.jpeg'
 
 export default function Roadmap () { 
     return (
         <div className="roadmap" id="roadmap">
             <div className="titleWrapper">
-                <h1>Giraffe Roadmap</h1>
+                <h1>KryptoKicks Roadmap</h1>
             </div>
             <div className="wrapper">
                 <div className="roadmap__elements">
-                    <h2>0% - The Door to the Bar is open!</h2>
-                    <p>The Giraffe community begins, our fun-loving Discord has its doors wide open. Come in and say hello!</p>
-                </div>
-                <div className="roadmap__elements">
-                    <h2>25% - Exclusive giveaway opportunities for verified drunken Giraffe owners.</h2>
-                </div>
-                <div className="roadmap__elements">
-                    <h2>50% - Drinks on the Devs!</h2>
-                    <p>Unique drinks ranging from fruity cocktails (shaken, not stirred), beers, spirits and unimaginable beverages are made available to lucky Giraffe holders!</p>
-                </div>
-                <div className="roadmap__elements">
-                    <h2>75% - Pangolins on the Plains!</h2>
-                    <p>Giraffe holders can claim a cute pangolin to accompany their Giraffe. The goal is to raise awareness and funds for the struggling pangolin population in Africa and Asia. We will donate a portion of funds directly to Pangolin charities.</p>
-                </div>
-                <div className="roadmap__elements">
-                    <h2>100% - The Metaverse awaits…</h2>
-                    <p>The moon is the limit... Challenge other Giraffe owners to a drink at the official #GiraffeBar!</p>
+                    <div className="roadmap__text">
+                        <h2>0% - KryptoKicks are Live!</h2>
+                        <p>The Kicks community begins. Join the Discord!</p>
+                    </div>
+                    <div className="roadmap__imgContainer">
+                        <img src={roadShoe1} alt="Roadmap Shoe Example" />
+                    </div>
                 </div>
                 
+                <div className="roadmap__elements">
+                    <div className="roadmap__imgContainer-pc">
+                        <img src={roadShoe2} alt="Roadmap Shoe Example" />
+                    </div>
+                    <div className="roadmap__text">
+                        <h2>25% - All holders get a free sticker.</h2>
+                        <p>The Kicks community begins. Join the Discord!</p>
+                    </div>
+                    <div className="roadmap__imgContainer-mobile">
+                        <img src={roadShoe2} alt="Roadmap Shoe Example" />
+                    </div>
+                </div>
+                
+                <div className="roadmap__elements">
+                    <div className="roadmap__text">
+                        <h2>50% - All holders get a free signed print</h2>
+                        <p>The Kicks community begins. Join the Discord!</p>
+                    </div>
+                    <div className="roadmap__imgContainer">
+                        <img src={roadShoe3} alt="Roadmap Shoe Example" />
+                    </div>
+                </div>
+               
+                <div className="roadmap__elements">
+                    <div className="roadmap__imgContainer-pc">
+                        <img src={roadShoe4} alt="Roadmap Shoe Example" />
+                    </div>
+                    <div className="roadmap__text">
+                        <h2>75% - Donation to benefit the homeless</h2>
+                        <p>The Kicks community begins. Join the Discord!</p>
+                    </div>
+                    <div className="roadmap__imgContainer-mobile">
+                        <img src={roadShoe4} alt="Roadmap Shoe Example" />
+                    </div>
+                </div>
+               
+                <div className="roadmap__elements">
+                    <div className="roadmap__text">
+                        <h2>100% - Physical Holographic Collectible card to all holders.</h2>
+                        <p>The Kicks community begins. Join the Discord!</p>
+                    </div>
+                    <div className="roadmap__imgContainer">
+                        <img src={roadShoe5} alt="Roadmap Shoe Example" />
+                    </div>
+                </div>
             </div>
         </div>
     );
