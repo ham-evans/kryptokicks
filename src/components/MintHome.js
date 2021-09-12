@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './MintHome.css';
-import Giraffe from '../artifacts/contracts/GiraffesAtTheBar.sol/GiraffesAtTheBar.json';
+import Giraffe from '';
 import { ethers } from 'ethers';
 import Modal from './Modal.js';
 
