@@ -6,9 +6,7 @@ export default function Team () {
     return (
         <div className="team" id="team">
             <div className="team__container">
-                <h1>About The Team</h1> 
-                <p>Who we are and what we do</p>
-                <p>Other info about us </p>
+                <h1>The Team</h1> 
             </div>
             <div className="team__imgContainer">
                 <div className="team__imgIndividual">

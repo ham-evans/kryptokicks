@@ -8,7 +8,7 @@ export default function Info () {
     return (
         <div className="info" id="info">
             <div className="info__container"  >
-                <h1>KryptoKicks Information</h1> 
+                <h1>KSK Information</h1> 
                 <ul>
                     <li>
                         Presale: 
@@ -17,7 +17,7 @@ export default function Info () {
                         Main Drop: 
                     </li>
                     <li>
-                        Total number of KryptoKicks NFTs: 
+                        Total number of Krypto Sneak NFTs: 
                     </li>
                     <li>
                         Price per NFT: X ETH + gas
@@ -27,9 +27,6 @@ export default function Info () {
                     </li>
                     <li>
                         Blockchain: Ethereum
-                    </li>
-                    <li>
-                        File hosting: IPFS
                     </li>
                     <li>
                         Smart contract: 

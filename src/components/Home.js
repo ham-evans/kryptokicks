@@ -11,9 +11,9 @@ export default function Home () {
     return (
         <div className="home" id="home">
             <div className="home__container">
-                <h1>KRYPTOKICKS</h1> 
+                <h1>KRYPTO SNEAK KOLLECTIVE</h1> 
                 <p>A collection of 10,000 shoes on the Ethereum Blockchain</p>
-                <p>Join the Kicks Community</p>
+                <p>Join the Sneak Community</p>
             </div>
             <div className="home__imgContainer">
                 <div className="home__imgIndividual">
